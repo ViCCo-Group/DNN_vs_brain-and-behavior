@@ -41,10 +41,6 @@ Have anything in mind that you think is fit in this list and is missing? Feel fr
 _____________
 <table class="sortable">
  <thead>
-			<tr>
-				<td colspan="2">general</td>
-			</tr>
-  <thead>
     <tr>
       <th>title</th>
       <th>authors</th>
@@ -55,17 +51,15 @@ _____________
     </tr>
   </thead>
   <tbody>
-    <tr>
-      <td>ex1</td><name</td>
-      <td>ex2</td>
-    </tr>
-    <tr>
-      <td><a href="javascript:alert('Inline javascript works!');">Sidekick</a></td>
-      <td>Morty</td>
-    </tr>
+    <tr><td>ex1</td><td>ex2</td></tr>
+    <tr><td>Ginger</td><td>Morty</td></tr>
   </tbody>
 </table>
 <link href="sortable.css" rel="stylesheet" />
 <script src="sortable.js"></script>
 
+
+--------
 <tr><td>Boss</td><td>Stan the Man</td><td>Monsters Inc</td><td>AMD</td><td>2</td><td>Nvidia</td><td>1920</td><td>981</td><td>Win32</td><td>IE</td><td>11</td><td>en-US</td></tr>
+ <thead>
+	<tr><td colspan="2">general</td></tr>
