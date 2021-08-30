@@ -35,4 +35,5 @@ For updates, follow on Twitter: @martin_hebart
 
 ### contributing
 
-1.  who
+Have anything in mind that you think is fit in this list and is missing? Feel free update the list. (ändern zu pull request?)
+
