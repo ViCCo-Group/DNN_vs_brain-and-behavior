@@ -3,7 +3,7 @@ This list is the updated  (but surely not complete!) version of martinhebarts we
 
 For updates, follow on Twitter: @martin_hebart
 
-Labels: human	:standing_person:, mouse :mouse2:, rat:rat:, monkey:monkey:,eeg:globe_with_meridians:, fMRI:brain:, visual:eye_speech_bubble:, semantic:speech_balloon:
+Labels: human	:standing_person:, rodent:rat:, monkey:monkey:,eeg:globe_with_meridians:, fMRI:brain:, visual:eye_speech_bubble:, semantic:speech_balloon:
 
 ## Table of Contents
 
@@ -38,3 +38,34 @@ Labels: human	:standing_person:, mouse :mouse2:, rat:rat:, monkey:monkey:,eeg:gl
 ### contributing
 
 Have anything in mind that you think is fit in this list and is missing? Feel free update the list. (ändern zu pull request?)
+_____________
+<table class="sortable">
+ <thead>
+			<tr>
+				<td colspan="2">general</td>
+			</tr>
+  <thead>
+    <tr>
+      <th>title</th>
+      <th>authors</th>
+      <th>year</th>
+      <th>journal</th>
+      <th>class</th>
+      <th>label</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>ex1</td><name</td>
+      <td>ex2</td>
+    </tr>
+    <tr>
+      <td><a href="javascript:alert('Inline javascript works!');">Sidekick</a></td>
+      <td>Morty</td>
+    </tr>
+  </tbody>
+</table>
+<link href="sortable.css" rel="stylesheet" />
+<script src="sortable.js"></script>
+
+<tr><td>Boss</td><td>Stan the Man</td><td>Monsters Inc</td><td>AMD</td><td>2</td><td>Nvidia</td><td>1920</td><td>981</td><td>Win32</td><td>IE</td><td>11</td><td>en-US</td></tr>
