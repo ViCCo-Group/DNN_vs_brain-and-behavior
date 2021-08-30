@@ -1,4 +1,4 @@
--# DNN vs. brain and behavior
+# DNN vs. brain and behavior
 This list is the updated  (but surely not complete!) version of martinhebarts well-known [list](https://docs.google.com/document/d/1qil2ylAnw6XrHPymYjKKYNDJn2qZQYA_Qg2_ijl-MaQ/edit#heading=h.oj7nw2h2lp7j)
 
 For updates, follow on Twitter: @martin_hebart
