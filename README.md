@@ -1,14 +1,16 @@
 # DNN vs. brain and behavior
-This list is the updated  (but surely not complete!) version of martinhebarts well-known [list](https://docs.google.com/document/d/1qil2ylAnw6XrHPymYjKKYNDJn2qZQYA_Qg2_ijl-MaQ/edit#heading=h.oj7nw2h2lp7j)
+This list is the updated  (but surely not complete!) version of martinhebarts well-known introductory [list](https://docs.google.com/document/d/1qil2ylAnw6XrHPymYjKKYNDJn2qZQYA_Qg2_ijl-MaQ/edit#heading=h.oj7nw2h2lp7j) for DNN vs. brain and behavior
 
 For updates, follow on Twitter: @martin_hebart
+
+Labels: human	:standing_person:, mouse :mouse2:, rat:rat:, monkey:monkey:,eeg:globe_with_meridians:, fMRI:brain:, visual:eye_speech_bubble:, semantic:speech_balloon:
 
 ## Table of Contents
 
 * **[DNN vs. Human Reviews / Commentaries](#DNN-vs.-Human-Reviews-/-Commentaries-(sorted-by-year))**  
 * **[Learning in DNN vs. Brain; Bio-plausible learning](#Learning-in-DNN-vs.-Brain;-Bio-plausible-learning-(reviews))**  
 * **[DNN vs. Brain Imaging / Recording Papers](#DNN-vs.-Brain-Imaging-/-Recording-Papers-(sorted-by-year-and-alphabetically))**  
-* **[DNN vs. Behavior Papers (sorted by year and alphabetically)](#DNN-vs.-Behavior-Papers-(sorted-by-year-and-alphabetically))**  
+* **[DNN vs. Behavior Papers](#DNN-vs.-Behavior-Papers-(sorted-by-year-and-alphabetically))**  
 * **[Contributing](#contributing)**  
 
 
@@ -36,4 +38,3 @@ For updates, follow on Twitter: @martin_hebart
 ### contributing
 
 Have anything in mind that you think is fit in this list and is missing? Feel free update the list. (ändern zu pull request?)
-
