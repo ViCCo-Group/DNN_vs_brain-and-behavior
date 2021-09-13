@@ -5,3 +5,5 @@ For updates, follow on Twitter: [@martin_hebart](https://twitter.com/martin_heba
 [ViCCo Group](https://hebartlab.com/)
 
 Labels: human	:standing_person:, rodent:rat:, monkey:monkey:,eeg:globe_with_meridians:, fMRI:brain:, visual:eye_speech_bubble:, semantic:speech_balloon:
+
+Sortable: https://annawff.github.io/DNN-vs-brain-and-behavior/
