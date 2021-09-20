@@ -10,6 +10,13 @@
 </head>
 <body>
 
+  document.getElementById("wrap").addEventListener("scroll",function(){
+   var translate = "translate(0,"+this.scrollTop+"px)";
+   this.querySelector("thead").style.transform = translate;
+});
+  
+
+<div id="wrap"> 
 <table class="sortable">
   <thead>
     <tr>
