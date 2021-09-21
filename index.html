@@ -7,16 +7,16 @@
 <meta name="description" content="DNN vs. brain and behavior">
 <title>DNN vs. brain_behavior </title>
 <link rel="stylesheet" type="text/css" href="sortable.css" />
-<link rel="stylesheet" href="assets/normalize.css">
-<link rel="stylesheet" href="assets/example.css">
-<script src="assets/jquery-1.12.4.js"></script>
-<script src="../build/jquery.stickyTableHeader.js"></script> 
+<script src="https://cdnjs.cloudflare.com/ajax/libs/sticky-table-headers/0.1.24/js/jquery.stickytableheaders.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/sticky-table-headers/0.1.24/js/jquery.stickytableheaders.min.js"></script>
+<script type="text/javascript" src="http://example.com/js/jquery.sticky.js"></script>
 </head>
 <body>
-  
- <div class="container">
-    <h1 style="text-align: center;">jQuery Sticky Table Header example</h1>
-<div class="table-container">
+
+<script>
+  $(document).ready(function() { $("table").stickyTableHeaders(); });
+  </script>
+
 <table class="sortable">
   <thead>
     <tr>
@@ -1967,11 +1967,8 @@
     </tr>
   </tbody>
 </table>
-</div>
-</div>
-        
-        
-<script>$('.table-container').stickyTableHeader(); </script>
+
+
 <script type="text/javascript" src="sortable.js"></script>
 </body>
 </html>
