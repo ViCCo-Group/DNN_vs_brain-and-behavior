@@ -1,3 +1,6 @@
+<script src="http://code.jquery.com/jquery-latest.js"></script>
+<script src="jquery.stickyTableHeader.js"></script>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -10,6 +13,7 @@
 </head>
 <body>
 
+<div class="table-container">
 <table class="sortable">
   <thead>
     <tr>
@@ -1960,8 +1964,9 @@
     </tr>
   </tbody>
 </table>
+</div>
 
-
+$('.table-container').stickyTableHeader();
 <script type="text/javascript" src="sortable.js"></script>
 </body>
 </html>
