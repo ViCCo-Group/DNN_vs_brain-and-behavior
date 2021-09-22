@@ -13,16 +13,14 @@
   <script src="../build/jquery.stickyTableHeader.js"></script>
   <script src="https://github.com/annawff/DNN-vs-brain-and-behavior/blob/main/jquery.min.js"></script>
 
- <div class="filters">
   <form>
         <legend>Year_test:</legend>
-        <input type="checkbox" name="2020" id="2020" value="2020" >
+        <input onchange="filterme()" type="checkbox" name="2020" value="2020" >
         <label for="2020">2020</label>
-        <input type="checkbox" name="2021" id="2021" value="2021" >
+        <input onchange="filterme()" type="checkbox" name="2021" value="2021" >
         <label for="2021">2021</label>
 </form> 
-</div>  
-
+ 
   
 </head>
 <body>
