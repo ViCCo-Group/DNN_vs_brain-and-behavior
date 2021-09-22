@@ -36,15 +36,17 @@
   });
 });</script>
 
- <form>
+ <div class="filters">
+  <form>
         <legend>Keywords:</legend>
-        <input type="checkbox" name="new" id="new" value="new">
+        <input type="checkbox" name="new" id="new" value="new" data-filter="new">
         <label for="new">new</label>
-        <input type="checkbox" name="fMRI" id="fMRI" value="fMRI">
+        <input type="checkbox" name="fMRI" id="fMRI" value="fMRI" data-filter="fMRI">
         <label for="fMRI">fMRI</label>
-        <input type="checkbox" name="human" id="human" value="human">
+        <input type="checkbox" name="human" id="human" value="human" data-filter="human">
         <label for="human">human</label>
 </form> 
+</div>  
 
   
 </head>
