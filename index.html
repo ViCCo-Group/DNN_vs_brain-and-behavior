@@ -11,30 +11,8 @@
   <link rel="stylesheet" href="assets/example.css">
   <script src="assets/jquery-1.12.4.js"></script>
   <script src="../build/jquery.stickyTableHeader.js"></script>
-  <script $(function() {
-  $('input[type="checkbox"]').change(function() {
-    // We check if one or more checkboxes are selected
-    // If one or more is selected, we perform filtering
-    if($('input[type="checkbox"]:checked').length > 0) {
-      // Get values all checked boxes
-      var vals = $('input[type="checkbox"]:checked').map(function() {
-        return this.value;
-      }).get();
-
-      // Here we do two things to table rows
-      // 1. We hide all
-      // 2. Then we filter, show those whose value in first <td> matches checkbox value
-      $('table tr')
-      .hide()    // 1
-      .filter(function() {    // 2
-        return vals.indexOf($(this).find('td:third').text()) > -1;
-      }).show();
-    } else {
-      // Show all
-      $('table tr').show();
-    }
-  });
-});</script>
+  
+  <script src="https://github.com/annawff/DNN-vs-brain-and-behavior/blob/main/jquery.min.js"></script>
 
  <div class="filters">
   <form>
