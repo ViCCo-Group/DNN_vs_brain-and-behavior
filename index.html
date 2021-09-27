@@ -9,15 +9,18 @@
 <link rel="stylesheet" type="text/css" href="sortable.css" />
   <link rel="stylesheet" href="assets/normalize.css">
   <link rel="stylesheet" href="assets/example.css">
-  <script src="assets/jquery-1.12.4.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <script src="../build/jquery.stickyTableHeader.js"></script>
-  <script src="https://github.com/annawff/DNN-vs-brain-and-behavior/blob/main/jquery.min.js"></script>                                                                                                                                                                                                                                                                       
 </head>
 <body>
 
     <div class="container">
     <h1 style="text-align: center;">DNN vs. brain and behavior</h1>
     <div class="table-container">
+
+      <div id='filter_section'>
+
+      </div>
 <table class="sortable">
   <thead>
     <tr>
@@ -1971,12 +1974,10 @@
   </div>
         </div>
 
- <form>
-        <legend>Year_test:</legend>
-        <input onchange="filterme()" type="checkbox" name="Year" value="2020">2020
-        <input onchange="filterme()" type="checkbox" name="Year" value="2021">2021
-</form> 
+
 <script type="text/javascript" src="sortable.js"></script>
+<script type="text/javascript" src="filter.js"></script>
+
 <script>$('.table-container').stickyTableHeader();</script>
 </body>
 </html>
