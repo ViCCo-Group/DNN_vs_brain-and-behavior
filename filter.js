@@ -1,5 +1,12 @@
 $(document).ready(function(){
 
+    $('#reset_filter').click(function() {
+        var rows = $('table tbody tr').each(function(i, row) {
+            var row = $(row)
+            row.show()
+        })
+    })
+
     function create_year_buttons() {
         var years = []
         $('table tr td:nth-child(3)').each(function(i, year) {
@@ -20,10 +27,12 @@ $(document).ready(function(){
             var keyword_value = $(keyword).text()
             var splitted_keywords = keyword_value.split(';')
             splitted_keywords.forEach(splitted_keyword => {
+                splitted_keyword = splitted_keyword.replace(' ', '')
                 if (!keywords.includes(splitted_keyword)) {
                     keywords.push(splitted_keyword)
                 }
             })
+            
             
         })
 
@@ -45,6 +54,7 @@ $(document).ready(function(){
                 row.hide()
             }
         })
+
     }
 
     function filter_rows_year(value) {
