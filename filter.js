@@ -15,7 +15,7 @@ $(document).ready(function(){
                 years.push(year_value)
             }
         })
-
+        years.sort()
         years.forEach(year => {
             $('#filter_section').append($('<button class="filter_by_year">' + year + '</button>'))
         });
@@ -35,7 +35,7 @@ $(document).ready(function(){
             
             
         })
-
+        keywords.sort()
         keywords.forEach(year => {
             $('#filter_section').append($('<button class="filter_by_keyword">' + year + '</button>'))
         });
