@@ -1,3 +1,7 @@
+.filter_section {
+  all: initial;
+}
+
 .filter_by_year {
   background-color: #555555;/* Black */
   border: none;
