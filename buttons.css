@@ -1,9 +1,5 @@
-.filter_section {
-  all: initial;
-}
-
-.filter_by_year {
-  background-color: #555555;/* Black */
+.filter_by_keyword {
+  background-color: #4CAF50; /* Green */
   border: none;
   color: white;
   padding: 10px 20px;
@@ -13,18 +9,22 @@
   font-size: 12px;
   margin: 2px 2px;
   cursor: pointer;
-  border-radius: 4px;}
-}
-.filter_by_year {
-  transition-duration: 0.4s;
-}
-
-.filter_by_year {
-  background-color: #4CAF50; /* Green */
-  color: white;
-}
-
-*/.buttons-filter_by_year {
+  border-radius: 4px;
   float: left;
-}/*
+}
+
+.filter_by_year {
+  background-color: #008CBA; /* Blue */
+  border: none;
+  color: white;
+  padding: 8px 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 12px;
+  margin: 2px 2px;
+  cursor: pointer;
+  border-radius: 4px;
+  float: right;
+}
 
