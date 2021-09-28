@@ -2,12 +2,12 @@
   background-color: #f44336; /* Red */
   border: none;
   color: white;
-  padding: 8px 10px;
+  padding: 6px 8px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
   font-size: 12px;
-  margin: 2px 2px;
+  margin: 1px 1px;
   cursor: pointer;
   border-radius: 4px;
   float: left;
@@ -18,7 +18,7 @@
   background-color: #4CAF50; /* Green */
   border: none;
   color: white;
-  padding: 10px 18px;
+  padding: 8px 16px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
