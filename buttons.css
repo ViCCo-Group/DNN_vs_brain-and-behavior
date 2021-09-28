@@ -1,5 +1,4 @@
-<style>
-.filter_by_year {
+.filter {
   background-color: #555555;/* Black */
   border: none;
   color: white;
@@ -12,16 +11,16 @@
   cursor: pointer;
   border-radius: 4px;}
 }
-.filter_by_year {
+.filter {
   transition-duration: 0.4s;
 }
 
-.filter_by_year:hover {
+.filter {
   background-color: #4CAF50; /* Green */
   color: white;
 }
 
-*/.filter_by_year {
+*/.filter {
   float: left;
 }/*
 
