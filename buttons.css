@@ -1,5 +1,5 @@
 <style>
-.button {
+.filter_by_year {
   background-color: #555555;/* Black */
   border: none;
   color: white;
@@ -12,15 +12,15 @@
   cursor: pointer;
   border-radius: 4px;}
 }
-.button {
+.filter_by_year {
   transition-duration: 0.4s;
 }
 
-.button:hover {
+.filter_by_year:hover {
   background-color: #4CAF50; /* Green */
   color: white;
 }
-.button {
+.filter_by_year {
   float: left;
 }
 </style>
