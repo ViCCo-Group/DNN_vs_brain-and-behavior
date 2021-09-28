@@ -1,20 +1,4 @@
-.filter_by_year {
-    background-color: #555555;/* Black */
-  border: none;
-  color: white;
-  padding: 10px 20px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 12px;
-  margin: 2px 2px;
-  cursor: pointer;
-  border-radius: 4px;
-};
-
-
-
-.ui-filter_section {
+.filter_section {
   background-color: #555555;/* Black */
   border: none;
   color: white;
@@ -27,11 +11,11 @@
   cursor: pointer;
   border-radius: 4px;}
 }
-.ui-filter_section  {
+.filter_section {
   transition-duration: 0.4s;
 }
 
-.ui-filter_section  {
+.filter_section  {
   background-color: #4CAF50; /* Green */
   color: white;
 }
