@@ -16,7 +16,6 @@ $(document).ready(function(){
             }
         })
         years.sort()
-        years = ["behavior","brain_imaging","EEG","MEG", "fMRI", "electrophysiology", "human", "monkey", "rodent", "semantic", "visual", "backpropagation", "learning", "review"]
         years.forEach(year => {
             $('#filter_section').append($('<button class="filter_by_year">' + year + '</button>'))
         });
@@ -37,6 +36,7 @@ $(document).ready(function(){
             
         })
         /* keywords.sort() */ 
+        keywords = ["behavior","brain_imaging","EEG","MEG", "fMRI", "electrophysiology", "human", "monkey", "rodent", "semantic", "visual", "backpropagation", "learning", "review"]
         keywords.forEach(year => {
             $('#filter_section').append($('<button class="filter_by_keyword">' + year + '</button>'))
         });
