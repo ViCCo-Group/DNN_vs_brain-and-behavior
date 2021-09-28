@@ -6,7 +6,7 @@ For updates, follow on Twitter: [@martin_hebart](https://twitter.com/martin_heba
 
 SORTABLE TABLE: https://annawff.github.io/DNN-vs-brain-and-behavior/
 
-Labels: behavior, brain_imaging, review, human, rodent, monkey, eeg, electrophysiology, fMRI, visual, semantic
+Labels: behavior, brain_imaging, review, human, rodent, monkey, eeg, electrophysiology, fMRI, MEG, visual, semantic
 
 
 If you wish to add a new paper, please add it here[LINK] and we will upload the table regulary.
