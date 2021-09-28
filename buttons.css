@@ -1,8 +1,8 @@
-.filter_by_keyword {
-  background-color: #4CAF50; /* Green */
+.reset_filter {
+  background-color: #f44336; /* Red */
   border: none;
   color: white;
-  padding: 10px 20px;
+  padding: 8px 10px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
@@ -11,8 +11,27 @@
   cursor: pointer;
   border-radius: 4px;
   float: left;
+ 
+.filter_by_keyword {
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 10px 18px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 12px;
+  margin: 1px 1px;
+  cursor: pointer;
+  border-radius: 4px;
+  float: left;
 }
 
+.filter_by_keyword:hover {
+  background-color: #3e8e41;
+}
+  
+  
 .filter_by_year {
   background-color: #008CBA; /* Blue */
   border: none;
@@ -25,6 +44,6 @@
   margin: 2px 2px;
   cursor: pointer;
   border-radius: 4px;
-  float: right;
+  float: left;
 }
 
