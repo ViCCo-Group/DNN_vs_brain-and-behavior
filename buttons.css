@@ -1,4 +1,4 @@
-.buttons {
+.ui-buttom {
   background-color: #555555;/* Black */
   border: none;
   color: white;
@@ -11,11 +11,11 @@
   cursor: pointer;
   border-radius: 4px;}
 }
-.buttons-filter_by_year {
+.ui-button {
   transition-duration: 0.4s;
 }
 
-.buttons-filter_by_year {
+.ui-button {
   background-color: #4CAF50; /* Green */
   color: white;
 }
