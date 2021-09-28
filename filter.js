@@ -6,8 +6,6 @@ $(document).ready(function(){
             row.show()
         })
     })
-    
-    $('#reset_filter').css('background-color','red');
 
     function create_year_buttons() {
         var years = []
