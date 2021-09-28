@@ -1,4 +1,4 @@
-.filter_by_year({
+.filter_by_year {
     background-color: #555555;/* Black */
   border: none;
   color: white;
@@ -10,7 +10,7 @@
   margin: 2px 2px;
   cursor: pointer;
   border-radius: 4px;
-});
+};
 
 
 
