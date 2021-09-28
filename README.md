@@ -4,6 +4,9 @@ This list is the updated  (but surely not complete!) version of Martin Hebarts w
 For updates, follow on Twitter: [@martin_hebart](https://twitter.com/martin_hebart)
 [ViCCo Group](https://hebartlab.com/)
 
-Labels: human	:standing_person:, rodent:rat:, monkey:monkey:,eeg:globe_with_meridians:, fMRI:brain:, visual:eye_speech_bubble:, semantic:speech_balloon:
+SORTABLE TABLE: https://annawff.github.io/DNN-vs-brain-and-behavior/
 
-Sortable TABLE: https://annawff.github.io/DNN-vs-brain-and-behavior/
+Labels: behavior, brain_imaging, review, human, rodent, monkey, eeg, electrophysiology, fMRI, visual, semantic
+
+
+If you wish to add a new paper, please add it here[LINK] and we will upload the table regulary.
