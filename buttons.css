@@ -37,7 +37,7 @@
   background-color: #191970;
 }
 
-.reset_filter {
+#reset_filter {
   background-color: #f44336; /* Red */
   border: none;
   color: white;
@@ -52,6 +52,6 @@
   /*float: left;*/
 }
 
-.reset_filter:hover {
+#reset_filter:hover {
   background-color: #8B0000;
  }
