@@ -1,6 +1,4 @@
-$( "filter_section" ).button()
-
-.button({
+.filter_by_year({
     background-color: #555555;/* Black */
   border: none;
   color: white;
