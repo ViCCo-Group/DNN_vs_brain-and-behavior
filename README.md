@@ -9,4 +9,4 @@ SORTABLE TABLE: https://annawff.github.io/DNN-vs-brain-and-behavior/
 Labels: behavior, brain_imaging, review, human, rodent, monkey, eeg, electrophysiology, fMRI, MEG, visual, semantic
 
 
-If you wish to add a new paper, please add it here[LINK] and we will update the table regulary.
+If you wish to add a new paper, please add it [here](https://docs.google.com/spreadsheets/d/1aRH6wGk95zZY8wrJbvyI3_ewGSMqh06zqdnTTikPB_8/edit?usp=sharing) and we will update the website regulary.
