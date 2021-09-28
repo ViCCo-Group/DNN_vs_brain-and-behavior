@@ -52,6 +52,6 @@
   float: left;
 }
 
-.filter_by_year:hover {
+.reset_filter:hover {
   background-color: #8B0000;
  }
