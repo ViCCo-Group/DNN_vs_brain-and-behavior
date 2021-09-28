@@ -1,4 +1,4 @@
-.button-filter_section {
+.ui-button.filter_section {
   background-color: #555555;/* Black */
   border: none;
   color: white;
@@ -11,11 +11,11 @@
   cursor: pointer;
   border-radius: 4px;}
 }
-.ui-button {
+.ui-button.filter_section  {
   transition-duration: 0.4s;
 }
 
-.ui-button {
+.ui-button.filter_section  {
   background-color: #4CAF50; /* Green */
   color: white;
 }
