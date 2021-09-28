@@ -11,16 +11,16 @@
   cursor: pointer;
   border-radius: 4px;}
 }
-.filter_section {
+.buttons-filter_by_year {
   transition-duration: 0.4s;
 }
 
-.filter_section {
+.buttons-filter_by_year {
   background-color: #4CAF50; /* Green */
   color: white;
 }
 
-*/.filter_section {
+*/.buttons-filter_by_year {
   float: left;
 }/*
 
