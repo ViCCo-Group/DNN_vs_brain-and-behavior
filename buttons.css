@@ -1,4 +1,4 @@
-.filter {
+.filter_section {
   background-color: #555555;/* Black */
   border: none;
   color: white;
@@ -11,16 +11,16 @@
   cursor: pointer;
   border-radius: 4px;}
 }
-.filter {
+.filter_section {
   transition-duration: 0.4s;
 }
 
-.filter {
+.filter_section {
   background-color: #4CAF50; /* Green */
   color: white;
 }
 
-*/.filter {
+*/.filter_section {
   float: left;
 }/*
 
