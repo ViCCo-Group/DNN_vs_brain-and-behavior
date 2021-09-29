@@ -78,3 +78,10 @@ $(document).ready(function(){
         filter_rows_keyword(keyword)
       });
 });
+
+/*try to only show 15 rows on each page */
+    $('#table').DataTable( {
+        responsive: true,
+        "pageLength": 15
+    } );
+} );
