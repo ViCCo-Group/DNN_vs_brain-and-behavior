@@ -33,6 +33,15 @@
   /* float: left; */
 }
 
+input:checked + span {
+    background-color:#911;
+    color:#fff;
+}
+label input {
+    position:absolute;
+    top:-20px;
+}
+
 .filter_by_year:hover {
   background-color: #191970;
 }

@@ -1,10 +1,14 @@
 $(document).ready(function(){
 
-    $('#reset_filter').click(function() {
+    function show_all_rows() {
         var rows = $('table tbody tr').each(function(i, row) {
             var row = $(row)
             row.show()
         })
+    }
+    
+    $('#reset_filter').click(function() {
+        show_all_rows()
     })
 
     function create_year_buttons() {
@@ -17,7 +21,7 @@ $(document).ready(function(){
         })
         years.sort()
         years.forEach(year => {
-            $('#filter_section').append($('<button class="filter_by_year">' + year + '</button>'))
+            $('#filter_section').append($('<label><input type="checkbox" class="years" id="'+ year + '" value="' + year + '"><span class="filter_by_year">' + year + '</span></label>'))
         });
     }
 
@@ -31,15 +35,14 @@ $(document).ready(function(){
                 if (!keywords.includes(splitted_keyword)) {
                     keywords.push(splitted_keyword)
                 }
-            })
-            
-            
+            })    
         })
+        
         /* keywords.sort() */ 
         keywords = ["behavior","brain_imaging","EEG","MEG", "fMRI", "electrophysiology", "human", "monkey", "rodent", "semantic", "visual", "backpropagation", "learning", "review"]
         /* i overwrite the nice keyword list by the function create_keyword-function here, to sort these keywords - maybe there is another way to do it better.. */
-        keywords.forEach(year => {
-            $('#filter_section').append($('<button class="filter_by_keyword">' + year + '</button>'))
+        keywords.forEach(keyword => {
+            $('#filter_section').append($('<label><input type="checkbox" class="keywords" id="'+ keyword + '" value="' + keyword + '"><span class="filter_by_keyword">' + keyword + '</span></label>'))
         });
         $('#filter_section').append($('</br>'))
     }
@@ -48,33 +51,53 @@ $(document).ready(function(){
     create_year_buttons()
 
 
-    function filter_row(value, column_id) {
+    function filter_rows(years, keywords) {
+    console.log(years)
+            console.log(keywords)
+            show_all_rows()
         var rows = $('table tbody tr').each(function(i, row) {
             var row = $(row)
-            row.show()
-            if(!row.find("td:eq(" + column_id + ")").text().includes(value)) {
-                row.hide()
+            var year_text = row.find("td:eq(2)").text() 
+            var keyword_text = row.find("td:eq(5)").text() 
+            var row_has_one_value = false;
+
+            years.forEach(function(year) {
+		if(year_text == year) {
+		      row_has_one_value = true
+		}
+            })
+            
+            keywords.forEach(function(keyword) {
+		if(keyword_text.includes(keyword)) {
+		      row_has_one_value = true
+		        	
+		}
+            })
+            
+            if(!row_has_one_value) {
+            	row.hide()
             }
         })
 
     }
+ 
 
-    function filter_rows_year(value) {
-        filter_row(value, 2)
-    }
+    $("input").change(function(e){
+      var years = []
+      $('input[type=checkbox].years').each(function(button) {
+        if(this.checked) {
+            years.push(this.value)
+        }
+      })
+      
+      var keywords = []
+      $('input[type=checkbox].keywords').each(function(button) {
+        if(this.checked) {
+            keywords.push(this.value)
+        }
+      })
+      filter_rows(years, keywords)
 
-    function filter_rows_keyword(value) {
-        filter_row(value, 5)
-    }
-
-
-    $(".filter_by_year").click(function(e){
-      var year = $(e.target).text();
-      filter_rows_year(year)
     });
 
-    $(".filter_by_keyword").click(function(e){
-        var keyword = $(e.target).text();
-        filter_rows_keyword(keyword)
-      });
 });
