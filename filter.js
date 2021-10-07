@@ -7,8 +7,15 @@ $(document).ready(function(){
         })
     }
     
+    function uncheck_buttons() {
+	    $('input[type=checkbox]').each(function(button) {
+	    	this.checked = false
+	    })
+    }
+    
     $('#reset_filter').click(function() {
         show_all_rows()
+        uncheck_buttons()
     })
 
     function create_year_buttons() {
@@ -52,30 +59,31 @@ $(document).ready(function(){
 
 
     function filter_rows(years, keywords) {
-    console.log(years)
-            console.log(keywords)
-            show_all_rows()
+        show_all_rows()
         var rows = $('table tbody tr').each(function(i, row) {
             var row = $(row)
             var year_text = row.find("td:eq(2)").text() 
             var keyword_text = row.find("td:eq(5)").text() 
-            var row_has_one_value = false;
+            var row_has_year_value = false;
+            var row_has_keyword_value = false;
 
             years.forEach(function(year) {
 		if(year_text == year) {
-		      row_has_one_value = true
+		      row_has_year_value = true
 		}
             })
             
             keywords.forEach(function(keyword) {
 		if(keyword_text.includes(keyword)) {
-		      row_has_one_value = true
+		      row_has_keyword_value = true
 		        	
 		}
             })
             
-            if(!row_has_one_value) {
+            if(!row_has_keyword_value && keywords.length != 0) {
             	row.hide()
+            } else if (!row_has_year_value && years.length != 0) {
+                row.hide()
             }
         })
 
