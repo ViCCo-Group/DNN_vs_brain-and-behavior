@@ -65,7 +65,7 @@ $(document).ready(function(){
             var year_text = row.find("td:eq(2)").text() 
             var keyword_text = row.find("td:eq(5)").text() 
             var row_has_year_value = false;
-            var row_has_keyword_value = false;
+            var row_has_all_keyword_values = true;
 
             years.forEach(function(year) {
 		if(year_text == year) {
@@ -74,13 +74,13 @@ $(document).ready(function(){
             })
             
             keywords.forEach(function(keyword) {
-		if(keyword_text.includes(keyword)) {
-		      row_has_keyword_value = true
+		if(!keyword_text.includes(keyword)) {
+		      row_has_all_keyword_values = false
 		        	
 		}
             })
             
-            if(!row_has_keyword_value && keywords.length != 0) {
+            if(!row_has_all_keyword_values && keywords.length != 0) {
             	row.hide()
             } else if (!row_has_year_value && years.length != 0) {
                 row.hide()
